@@ -50,18 +50,18 @@ const result = [
       {
         "id": "3ccfc019-85d5-490d-8016-a8183ff5ae88",
         "weekday": "MONDAY",
-        "openingTime": "14:00:00",
-        "closingTime": "17:00:00",
+        "openingTime": "15:00:00",
+        "closingTime": "21:30:00",
         "prices": [
           {
             "id": "e553d43c-4998-43dd-ac56-2c4136be1a17",
             "priceType": "ADULT",
-            "price": 8
+            "price": 9
           },
           {
             "id": "55fc8ad8-0a0f-4ba0-867a-59675385bc4d",
             "priceType": "CHILD",
-            "price": 2
+            "price": 3
           }
         ]
       },
@@ -74,12 +74,12 @@ const result = [
           {
             "id": "8993d75b-2a83-4818-97fd-0324b1dcb5f9",
             "priceType": "ADULT",
-            "price": 8
+            "price": 9
           },
           {
             "id": "3f598907-7c64-4731-94c7-f7be099e65b7",
             "priceType": "CHILD",
-            "price": 2
+            "price": 3
           }
         ]
       },
@@ -87,17 +87,17 @@ const result = [
         "id": "496f9b79-0cc4-48d0-96b6-0c1149533e14",
         "weekday": "FRIDAY",
         "openingTime": "15:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "8ae5c1f4-1f3e-4c6a-8f71-87b425e04881",
             "priceType": "ADULT",
-            "price": 8
+            "price": 9
           },
           {
             "id": "d6f4b556-8277-416f-a2e8-682621ecd287",
             "priceType": "CHILD",
-            "price": 2
+            "price": 3
           }
         ]
       },
@@ -110,19 +110,19 @@ const result = [
           {
             "id": "ec1bdbe9-e2b6-4096-8d26-7c33622445bd",
             "priceType": "ADULT",
-            "price": 8
+            "price": 9
           },
           {
             "id": "7533ef71-c44c-44f1-9e79-61c1c57aa386",
             "priceType": "CHILD",
-            "price": 2
+            "price": 3
           }
         ]
       }
     ],
     "phone": "+358 50 919 7050",
     "webPage": "https://www.alisniemi.com/",
-    "info": "Kassa sulkeutuu 30 min ennen päättymisaikaa. Maksuvälineeksi suositellaan pankkikorttia. Ma klo 14-17 lempeät löylyt. Su klo 19-21 hiljainen talvisauna.",
+    "info": "Kassa sulkeutuu klo 21.00, jolloin päättyy myös sisäänpääsy. Sauna ja pesuhuoneet suljetaan klo 21.30 (perjantaisin klo 22.00). Käteismaksut ovat päättyneet: otamme vastaan vain kortti- ja lähimaksuja. Vierailijat 9 €, jäsenet 7 €, lapset (alle 15 v.) 3 €.",
     "kiosk": true,
     "restaurant": false
   },
@@ -134,142 +134,226 @@ const result = [
     "city": "Tampere",
     "openingHours": [
       {
-        "id": "7c8e9f2a-3b4d-5c6e-8f9a-1b2c3d4e5f6a",
-        "weekday": "MONDAY",
-        "openingTime": "15:00:00",
-        "closingTime": "21:00:00",
+        "id": "3ab81eb0-a7cf-4acf-a2d6-9978845f7ed8",
+        "weekday": "TUESDAY",
+        "openingTime": "08:00:00",
+        "closingTime": "12:00:00",
         "prices": [
           {
-            "id": "9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+            "id": "9991917b-29ee-4665-88fd-454c7606bc18",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
-            "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+            "id": "fbdb2464-1e52-4dee-b8ab-b23c66b3cb96",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
-            "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+            "id": "7b320a5d-8f35-474c-9cba-13eda542d735",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
-            "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+            "id": "d4d5b591-857a-4f89-8c58-d289427a2eb2",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
           }
         ]
       },
       {
         "id": "8d9e0f1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b",
         "weekday": "TUESDAY",
-        "openingTime": "15:00:00",
-        "closingTime": "21:00:00",
+        "openingTime": "16:00:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
             "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
+          }
+        ]
+      },
+      {
+        "id": "c3199e37-85c8-4ee3-9b0f-f9b5ceb6f0d0",
+        "weekday": "WEDNESDAY",
+        "openingTime": "08:00:00",
+        "closingTime": "12:00:00",
+        "prices": [
+          {
+            "id": "e3828852-f6d8-457f-a4d0-f8f9d9038582",
+            "priceType": "ADULT",
+            "price": 15
+          },
+          {
+            "id": "37648c4d-5883-49b6-b70f-d5d22cbde3cb",
+            "priceType": "STUDENT",
+            "price": 13
+          },
+          {
+            "id": "29ac40a1-769e-44d4-9dde-61fb991c8622",
+            "priceType": "PENSIONER",
+            "price": 13
+          },
+          {
+            "id": "258fe6f2-8e9f-4fe5-bde4-ba94cb926d2f",
+            "priceType": "CONSRIPT",
+            "price": 13
           }
         ]
       },
       {
         "id": "42c745b5-f98b-4f86-a259-012a4cde0b80",
         "weekday": "WEDNESDAY",
-        "openingTime": "15:00:00",
-        "closingTime": "21:00:00",
+        "openingTime": "16:00:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "da7b7899-fb66-4d02-82d3-13cc73861da1",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
             "id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
+          }
+        ]
+      },
+      {
+        "id": "af1b8068-1fc8-4a9a-b3f3-8a0534c57f93",
+        "weekday": "THURSDAY",
+        "openingTime": "08:00:00",
+        "closingTime": "12:00:00",
+        "prices": [
+          {
+            "id": "07704794-aee2-4cc8-8f02-e15921e9285b",
+            "priceType": "ADULT",
+            "price": 15
+          },
+          {
+            "id": "df363d3a-ab52-46bf-838a-872a8beb706b",
+            "priceType": "STUDENT",
+            "price": 13
+          },
+          {
+            "id": "6baa75e6-5a63-42fd-bd75-64d7a8bfefd6",
+            "priceType": "PENSIONER",
+            "price": 13
+          },
+          {
+            "id": "ced7887a-9595-42f6-8438-1d4675cf310f",
+            "priceType": "CONSRIPT",
+            "price": 13
           }
         ]
       },
       {
         "id": "a28c7d9e-0f0f-467d-8823-f29d29ca7e2b",
         "weekday": "THURSDAY",
-        "openingTime": "15:00:00",
-        "closingTime": "21:00:00",
+        "openingTime": "16:00:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "4540098d-5e05-4959-8843-5e1eb1450ff3",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
             "id": "0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
+          }
+        ]
+      },
+      {
+        "id": "823519f4-b567-4423-b14c-d1bb7c92155a",
+        "weekday": "FRIDAY",
+        "openingTime": "08:00:00",
+        "closingTime": "12:00:00",
+        "prices": [
+          {
+            "id": "e30259e8-8944-4a78-9e1d-ae7cd161f3b0",
+            "priceType": "ADULT",
+            "price": 15
+          },
+          {
+            "id": "26e8b0a6-9db2-48a8-9ee3-4cb625f576a8",
+            "priceType": "STUDENT",
+            "price": 13
+          },
+          {
+            "id": "1f8b643d-3970-4a60-8ca1-7157cb59937f",
+            "priceType": "PENSIONER",
+            "price": 13
+          },
+          {
+            "id": "056a5ba0-a502-4873-8933-34835e54afec",
+            "priceType": "CONSRIPT",
+            "price": 13
           }
         ]
       },
       {
         "id": "786abe3c-708b-4a4b-826b-692a880a1391",
         "weekday": "FRIDAY",
-        "openingTime": "15:00:00",
-        "closingTime": "21:00:00",
+        "openingTime": "16:00:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "6764f911-9d3f-4291-b9ac-eb54cf9f5844",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
             "id": "3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
           }
         ]
       },
@@ -277,27 +361,27 @@ const result = [
         "id": "12613bc0-3be1-4975-8631-f553f545c01f",
         "weekday": "SATURDAY",
         "openingTime": "08:00:00",
-        "closingTime": "21:00:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "10eee2f8-b113-407f-b33a-b877e6aa38ee",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
             "id": "6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
           }
         ]
       },
@@ -305,34 +389,34 @@ const result = [
         "id": "428f3549-74da-4f1a-a5e4-2b1cca39d4da",
         "weekday": "SUNDAY",
         "openingTime": "08:00:00",
-        "closingTime": "21:00:00",
+        "closingTime": "22:00:00",
         "prices": [
           {
             "id": "4581568b-8fec-4bdb-a363-9aa64ba5c104",
             "priceType": "ADULT",
-            "price": 15.00
+            "price": 15
           },
           {
             "id": "9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d",
             "priceType": "STUDENT",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
             "priceType": "PENSIONER",
-            "price": 13.00
+            "price": 13
           },
           {
             "id": "1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f",
             "priceType": "CONSRIPT",
-            "price": 13.00
+            "price": 13
           }
         ]
       }
     ],
     "phone": "+358 44 249 3834",
     "webPage": "https://www.flousauna.fi/",
-    "info": "Talvikausi 13.10.2025-01.05.2026 Pyynikillä. Pikkupurtavaa ja keittoa arkisin, viikonloppuisin lisänä aamiainen. Voit piipahtaa kahville tai drinkille ohikulkumatkalla. Voit myös vuokrata pyyhkeen.",
+    "info": "Yleinen sauna palvelee aina, kun saunoilla ei ole yksityistilaisuutta – tarkistathan poikkeusaukioloajat verkkosivuilta. Talvikausi 4.9.2026 alkaen Pyynikillä (Jalkasaarentie 7). Saunalippu 15 €, 5 kerran kortti 40 €, kuukausipassi 80 €. Pyyhkeen voi vuokrata 5 €.",
     "kiosk": true,
     "restaurant": true
   },
@@ -347,12 +431,12 @@ const result = [
         "id": "f26237ca-b6e1-4f43-936c-cfe9b0d8ca34",
         "weekday": "MONDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "ea36ecff-8a2b-4b15-871d-509e80f4fc3e",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "e5e5b50d-1183-4738-bd19-ba5ec895572f",
@@ -362,22 +446,22 @@ const result = [
           {
             "id": "025cb419-f225-4743-9fb3-5e593cfb7232",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "a98ee685-0002-4edd-b3bb-012039c201ef",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "60f155e2-d0a4-4c41-8b86-1e4907175c80",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "f06dca0a-1e09-47c1-8311-aef5f1e2d925",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       },
@@ -385,12 +469,12 @@ const result = [
         "id": "fbdf2943-ce20-4e14-85c1-cc8a9eed222c",
         "weekday": "TUESDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "f249d368-1c52-42a1-a7d3-ba76984fb0e5",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "088302a5-2206-471e-8f92-4cdbeb286876",
@@ -400,22 +484,22 @@ const result = [
           {
             "id": "a7249ea3-abac-4bb1-b413-55d39147fa0f",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "fa218c47-3a4c-4cc7-af44-3caa9648c751",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "30ec5e03-a0c9-4876-b1e4-96ab2dbda568",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "406d7af9-ebe3-429c-8861-ab6f1e2eb052",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       },
@@ -423,12 +507,12 @@ const result = [
         "id": "18047c83-65f1-4161-b8db-b76b88cd265a",
         "weekday": "WEDNESDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "4a93a2bb-f923-488a-b1fa-fe019241a875",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "391e3c2d-a29e-4cfe-97bd-7a174a3c94a1",
@@ -438,22 +522,22 @@ const result = [
           {
             "id": "4d08295f-0a73-4542-9b8c-118d5e17681a",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "ef4cd726-e0f6-4fd5-92b4-f29c9372667e",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "44d688bd-2425-411d-b9cf-2bc4f4a45a50",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "bae17b8e-20b2-4151-90f9-e65931583e9e",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       },
@@ -461,12 +545,12 @@ const result = [
         "id": "e034198c-ed01-40aa-81ae-7af440c0c876",
         "weekday": "THURSDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "89a699e6-f4e1-436f-a9a5-5c3bb8eeeee3",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "8d704fcc-d5af-4ba0-b917-31eb570e6622",
@@ -476,22 +560,22 @@ const result = [
           {
             "id": "ddec7dc9-5986-4b47-a82b-f54ba87613e5",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "2f7bdef0-9bee-49b4-9fc6-a9c409756a14",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "2a8985d8-357f-49b6-bce3-13dfa43b59b9",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "5e66cf48-2191-4346-bb8c-bd77ab2616d5",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       },
@@ -499,12 +583,12 @@ const result = [
         "id": "b112e21b-3391-4f93-aa03-e9a9d371de8d",
         "weekday": "FRIDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "68e60ccd-1a57-4445-903c-01a7fb73a75c",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "783469a3-95b9-4850-8689-c184c3b6ba59",
@@ -514,22 +598,22 @@ const result = [
           {
             "id": "595f3876-03ab-4a89-bb03-bca9c2f15f43",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "9dde730a-5aff-4d7b-8d21-cc274b22e848",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "5bd86340-5cb0-4440-a7b6-54ec3f4fdf4a",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "614c291f-0fde-45ae-a497-8957ca46e936",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       },
@@ -537,12 +621,12 @@ const result = [
         "id": "6aaed8dc-8d18-450d-9db2-c559e146b698",
         "weekday": "SATURDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "74db766f-21f1-48c8-92f8-5c4d36197dcd",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "6bc6d3ff-e8df-44c7-aa85-eab00951bdcf",
@@ -552,22 +636,22 @@ const result = [
           {
             "id": "a96a5816-319e-4a60-8dcf-dfb9e7e1cffe",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "427ff564-28f3-455b-9e2c-b8f48ef68869",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "a7fef312-3b96-4ea5-987f-bb8f9dfda1c3",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "71d9d5bc-8494-41c9-a001-1266175084ad",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       },
@@ -575,12 +659,12 @@ const result = [
         "id": "dfa89100-0a4e-4476-974c-88fea7496417",
         "weekday": "SUNDAY",
         "openingTime": "12:00:00",
-        "closingTime": "21:30:00",
+        "closingTime": "21:45:00",
         "prices": [
           {
             "id": "0fe9ad51-914e-4e8b-a111-a11d41da546e",
             "priceType": "ADULT",
-            "price": 11
+            "price": 12
           },
           {
             "id": "36a2148f-91cc-4e56-8ec7-461fed8c051d",
@@ -590,30 +674,29 @@ const result = [
           {
             "id": "89f53d32-8c44-4116-8a93-83cd59b1488c",
             "priceType": "CONSRIPT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "84cb6552-d742-4628-b3fc-ab9a006fe678",
             "priceType": "PENSIONER",
-            "price": 9
+            "price": 10
           },
           {
             "id": "e8055d0c-7338-452a-a3a8-890d778eb17d",
             "priceType": "STUDENT",
-            "price": 9
+            "price": 10
           },
           {
             "id": "9709026a-ddae-4e50-bfc3-24ed651f8f1b",
             "priceType": "UNEMPLOYED",
-            "price": 9
+            "price": 10
           }
         ]
       }
     ],
     "phone": "+358 40 590 0539",
     "webPage": "https://www.kaukajarvensauna.fi/",
-    "info": "Huomioithan liikennemerkit parkkeeramisesta. Hiljaiset tunnit: ma & ke klo 17.00-18.00 " +
-      "(vanhat saunat), la & su klo 16.00-17.00 (uusi sauna).",
+    "info": "Vanha sauna ma-su klo 12.00-21.45 (pukuhuoneista poistuminen klo 22.00). Uusi sauna arkisin klo 16.00-21.30 (perjantaisin jo klo 14.00 alkaen), la & su klo 12.00-21.30. Aamusaunat ovat poistuneet valikoimasta. Hiljaiset tunnit: ma & ke klo 17.00-18.00 (vanhat saunat), la & su klo 16.00-17.00 (uusi sauna). Huomioithan liikennemerkit parkkeeramisesta. Hinnasto: aikuinen 12 €, eläkeläinen, opiskelija, työtön ja varusmies 10 €, lapsi 7-14 v. 6 €, lapsi 1-6 v. 2 €.",
     "kiosk": true,
     "restaurant": false
   },
@@ -633,7 +716,7 @@ const result = [
           {
             "id": "ab19cdf2-1ac8-4116-829e-a5c436650662",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "bbd7d743-f6bf-45e4-a59e-786f6917ffad",
@@ -651,7 +734,7 @@ const result = [
           {
             "id": "bbb93306-9a1e-4600-b79b-3cb228d73af8",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "5b18a42b-0a85-4f42-aedf-bfc70db8848b",
@@ -669,7 +752,7 @@ const result = [
           {
             "id": "daa7e9a0-1bec-4f64-b6e6-74d3d6d66413",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "dd1fb254-97d3-4c6d-b3a1-587a1f0b7bdf",
@@ -687,7 +770,7 @@ const result = [
           {
             "id": "c9830246-d50b-465e-9ed5-e8bb9285b70a",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "33a2bfc3-51c2-4e81-b27b-1dee3e5ba5e5",
@@ -705,7 +788,7 @@ const result = [
           {
             "id": "6d96a53b-8681-4190-b02a-b7dc8108dd36",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "a6a40ba8-d0d5-46aa-9401-b9d0dc0b11ca",
@@ -723,7 +806,7 @@ const result = [
           {
             "id": "1568419f-3e97-43b4-8e1c-af4509d6f183",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "1abfb305-68da-4bf7-9252-3e4d4bd1f896",
@@ -741,7 +824,7 @@ const result = [
           {
             "id": "fd9a2524-9c59-4c87-92aa-84ee6c4685a5",
             "priceType": "ADULT",
-            "price": 12
+            "price": 13
           },
           {
             "id": "e600b128-2c6b-446d-800c-5ad48e6293c4",
@@ -753,7 +836,7 @@ const result = [
     ],
     "phone": "+358 50 551 7732",
     "webPage": "https://talviuimarit.fi/",
-    "info": "Asiakkaiden pysäköinti poikkeuksia lukuunottamatta tapahtuu ylhäällä olevalla pysäköintialueella. Käteinen ei käy. Lauantain ja sunnuntain ensimmäinen tunti (klo 12:00 - 13:00) on hiljainen tunti saunassa!",
+    "info": "Kertamaksut: aikuiset 13 €, lapset 7-12 v. 5 € sekä Jurttasauna yhteislippu 7 €. Käteinen ei käy. Hiljainen sauna aina aukeamisen yhteydessä klo 12-13 sekä ke & su klo 19-21. Sisäänpääsy päättyy klo 20.30. Joka kuukauden toinen tiistai saunat ovat suljettu huoltopäivän johdosta. Jurttasauna on avoinna ma-pe klo 17-21 ja la-su klo 15-21; Jurttasaunan käynnit maksetaan Kaupinojan kassalle ja asiakkaat käyttävät Kaupinojan pukuhuoneita ja suihkuja. Asiakkaiden pysäköinti tapahtuu ylhäällä olevalla pysäköintialueella.",
     "kiosk": true,
     "restaurant": false
   },
@@ -767,238 +850,238 @@ const result = [
       {
         "id": "4bd5d8d7-c116-4297-ab13-da03ff6a6ca1",
         "weekday": "MONDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "14:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "76337545-0d01-4109-9cb2-4a016d9500d3",
             "priceType": "ADULT",
-            "price": 14
+            "price": 15
           },
           {
             "id": "8906c475-e9f7-4703-8efe-b2aee62316e0",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "32c7de4d-5369-4324-88aa-99c58b50cbe4",
             "priceType": "CONSRIPT",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "bf2c3d71-2159-4816-98f1-3b0ff2e5b87e",
             "priceType": "PENSIONER",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "77027c23-c2fd-46a6-94eb-829ce55de8c2",
             "priceType": "STUDENT",
-            "price": 12.6
+            "price": 13.5
           }
         ]
       },
       {
         "id": "bf75802c-7bf8-4a72-8d02-ce6d0edc3297",
         "weekday": "TUESDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "14:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "8a0f39a0-5160-42fd-ab23-88534893efc1",
             "priceType": "ADULT",
-            "price": 14
+            "price": 15
           },
           {
             "id": "628f7b13-d801-4807-b300-a73756b29c0e",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "445c99c5-959d-424f-b390-71f890fd11b4",
             "priceType": "CONSRIPT",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "bb9cf3eb-ebb6-462e-a270-777eb4718f26",
             "priceType": "PENSIONER",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "aa6df1cf-e46a-4aa8-81f9-f634fd79ff8d",
             "priceType": "STUDENT",
-            "price": 12.6
+            "price": 13.5
           }
         ]
       },
       {
         "id": "bbe880bc-7516-443f-94d1-3a077dc71b41",
         "weekday": "WEDNESDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "14:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "08480b35-1301-4dc5-9496-99ac151dd596",
             "priceType": "ADULT",
-            "price": 14
+            "price": 15
           },
           {
             "id": "a374a70c-a4bf-4d16-9a77-a655772a25d7",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "3dd591e1-d916-40b1-b708-ae59c9bac8f3",
             "priceType": "CONSRIPT",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "f37c6d0d-942c-44e1-8e03-02a39fb8d63d",
             "priceType": "PENSIONER",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "2b7cadc1-a4ca-4d82-b213-7caa5a26d7b7",
             "priceType": "STUDENT",
-            "price": 12.6
+            "price": 13.5
           }
         ]
       },
       {
         "id": "033924fb-aa4d-47b0-8a8f-e86caf36b48c",
         "weekday": "THURSDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "14:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "e1a11792-4d82-487a-96f6-2e8a5253ac19",
             "priceType": "ADULT",
-            "price": 14
+            "price": 15
           },
           {
             "id": "aaec0f6a-63c0-4a70-bce2-782c2e7748b9",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "c832b89f-8738-48e5-afcf-a9854111d3f9",
             "priceType": "CONSRIPT",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "6d5447ff-bcad-4e6c-ac90-da02e5acf244",
             "priceType": "PENSIONER",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "65841321-70ad-4203-bf21-50176ae0d152",
             "priceType": "STUDENT",
-            "price": 12.6
+            "price": 13.5
           }
         ]
       },
       {
         "id": "8a506f81-363e-4648-94e4-d71e3c338172",
         "weekday": "FRIDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "14:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "d51e56fd-b314-45d7-90a2-e4f9ba6f3611",
             "priceType": "ADULT",
-            "price": 14
+            "price": 15
           },
           {
             "id": "7fa2c99c-b102-4ad2-a681-80cb73df73b5",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "c1d95e73-82c2-4db7-8840-613eb59d4907",
             "priceType": "CONSRIPT",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "466f3694-c80c-46de-a41a-da2c6e52147f",
             "priceType": "PENSIONER",
-            "price": 12.6
+            "price": 13.5
           },
           {
             "id": "ffd0930b-9f98-4a06-9d1f-1ddeee1392a4",
             "priceType": "STUDENT",
-            "price": 12.6
+            "price": 13.5
           }
         ]
       },
       {
         "id": "caa49258-6e5d-4ff0-bab2-2b4778430019",
         "weekday": "SATURDAY",
-        "openingTime": "14:00:00",
+        "openingTime": "12:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "4e2ce578-a41a-4178-b864-dc855e1e9b6f",
             "priceType": "ADULT",
-            "price": 16
+            "price": 18
           },
           {
             "id": "7483de97-2383-4759-8333-ac742c675848",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "48e4ecee-111e-4799-a034-a92a83b34555",
             "priceType": "CONSRIPT",
-            "price": 14.4
+            "price": 16.2
           },
           {
             "id": "74b175b6-0c20-4cc5-938c-ac6d675a1992",
             "priceType": "PENSIONER",
-            "price": 14.4
+            "price": 16.2
           },
           {
             "id": "7cdc7997-acd7-4589-b879-2a8967ba62ad",
             "priceType": "STUDENT",
-            "price": 14.4
+            "price": 16.2
           }
         ]
       },
       {
         "id": "d444b249-6c4f-4e3a-b6af-c1224dcc938f",
         "weekday": "SUNDAY",
-        "openingTime": "14:00:00",
+        "openingTime": "12:00:00",
         "closingTime": "22:00:00",
         "prices": [
           {
             "id": "085c27b2-954a-4d6a-8600-dfe74ea2ef59",
             "priceType": "ADULT",
-            "price": 16
+            "price": 18
           },
           {
             "id": "2a682b3a-86d8-4ab6-b580-97df62d6d2d9",
             "priceType": "CHILD",
-            "price": 7
+            "price": 10
           },
           {
             "id": "4e97f37f-3cb7-4973-af7b-86e20d68f91b",
             "priceType": "CONSRIPT",
-            "price": 14.4
+            "price": 16.2
           },
           {
             "id": "30631536-92e0-4370-98c3-d3d54dd66a58",
             "priceType": "PENSIONER",
-            "price": 14.4
+            "price": 16.2
           },
           {
             "id": "6d867aeb-274d-43ac-bea0-2ca41b7cadae",
             "priceType": "STUDENT",
-            "price": 14.4
+            "price": 16.2
           }
         ]
       }
     ],
     "phone": "+358 50 5581818",
     "webPage": "https://pereensaarensauna.fi/",
-    "info": "Pyyhkeitä ja uima-asuja vuokrattavana tarvittaessa.",
+    "info": "Aukioloajat 1.8.2026 alkaen: ma-pe klo 14-22, la-su klo 12-22. Kertalippu arkisin 15 €, viikonloppuisin ja pyhäpäivinä 18 €, lapset 5-12 v. 10 € ja alle 5-vuotiaat veloituksetta. Eläkeläisille, opiskelijoille ja varusmiehille aina 10 % alennus. Saunomisaika 2 h, sauna toimii walk in -periaatteella. Kymppikortti 129 €. Emme vastaanota käteistä.",
     "kiosk": true,
     "restaurant": true
   },
@@ -1024,21 +1107,6 @@ const result = [
             "id": "9fa856c3-789a-4bfc-8fac-38059a088331",
             "priceType": "CHILD",
             "price": 4
-          },
-          {
-            "id": "d51591e3-fa90-4baf-a377-f5f181e560ba",
-            "priceType": "PENSIONER",
-            "price": 7
-          },
-          {
-            "id": "07a33576-655b-4ae8-b441-e0731c80d8bc",
-            "priceType": "STUDENT",
-            "price": 7
-          },
-          {
-            "id": "70e5e752-151f-4883-ae4b-a9ed31b1cce9",
-            "priceType": "UNEMPLOYED",
-            "price": 7
           }
         ]
       },
@@ -1057,21 +1125,6 @@ const result = [
             "id": "93cb66e2-9397-49f8-ae7f-741076bed826",
             "priceType": "CHILD",
             "price": 4
-          },
-          {
-            "id": "ecc71712-e8ac-430c-a4eb-e3deec182614",
-            "priceType": "PENSIONER",
-            "price": 7
-          },
-          {
-            "id": "104c17ef-b71f-4cf3-9716-849623a2d527",
-            "priceType": "STUDENT",
-            "price": 7
-          },
-          {
-            "id": "baaa4d0d-2900-4afd-9baf-7dc5b1f42a32",
-            "priceType": "UNEMPLOYED",
-            "price": 7
           }
         ]
       },
@@ -1090,21 +1143,6 @@ const result = [
             "id": "a5fb4f8e-40ed-4a24-b31c-b6c091f648b4",
             "priceType": "CHILD",
             "price": 4
-          },
-          {
-            "id": "4b0de2af-eab2-482e-bb9a-e9059a69dc80",
-            "priceType": "PENSIONER",
-            "price": 11
-          },
-          {
-            "id": "ad8f0fef-65a6-4427-b757-bc8607196c5a",
-            "priceType": "STUDENT",
-            "price": 11
-          },
-          {
-            "id": "ab5b6cd4-0a54-410d-b6f8-5d6d33d81c24",
-            "priceType": "UNEMPLOYED",
-            "price": 11
           }
         ]
       },
@@ -1123,28 +1161,13 @@ const result = [
             "id": "1e12d660-4f54-40b1-ab6c-f53970580c58",
             "priceType": "CHILD",
             "price": 4
-          },
-          {
-            "id": "e0429ecb-b6bc-46be-b6ec-80ae5ed7a26c",
-            "priceType": "PENSIONER",
-            "price": 11
-          },
-          {
-            "id": "5ac6e10f-973f-4cdf-805c-1c70c84d62c2",
-            "priceType": "STUDENT",
-            "price": 11
-          },
-          {
-            "id": "0cc6f661-217d-4d38-896e-3d6f12741769",
-            "priceType": "UNEMPLOYED",
-            "price": 11
           }
         ]
       }
     ],
     "phone": "+358 40 776 5198",
     "webPage": "https://www.rajaportinsauna.fi/",
-    "info": "Suomen vanhin yleinen sauna. Ei pulahdusmahdollisuutta. Kahvio.",
+    "info": "Suomen vanhin yleinen sauna. Ei pulahdusmahdollisuutta. Kahvio. Pääsymaksut: ma & ke 8 €, pe & la 12 €, lapset (6-15 v.) 4 € ja alle 6-vuotiaat ilmaiseksi. Torstaisin klo 16-23 Rajaportin sekasauna (saunamaksu 8 €), katso info sivuilta.",
     "kiosk": true,
     "restaurant": true
   },
@@ -1154,137 +1177,10 @@ const result = [
     "streetAddress": "Rauhaniementie 24",
     "postalCode": "33180",
     "city": "Tampere",
-    "openingHours": [
-      {
-        "id": "85ea1c9f-8459-4e8b-99fe-0d659d79d759",
-        "weekday": "MONDAY",
-        "openingTime": "14:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "27c70c4d-d1ed-4712-a8b9-08315c730cb0",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "7714a5e4-f971-40f7-94ba-3ab74a38e4ac",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      },
-      {
-        "id": "1abdcb0a-39ca-422d-a03d-a87c5afd704b",
-        "weekday": "TUESDAY",
-        "openingTime": "14:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "7f454eb2-2545-44a0-9f50-835d3724627b",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "72b6f611-a4bd-485f-b4e3-76b8897784bb",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      },
-      {
-        "id": "17497175-019b-40f2-beeb-65fe16c29ff2",
-        "weekday": "WEDNESDAY",
-        "openingTime": "14:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "d22f55d2-727d-4871-ad3e-808505666879",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "7b9015ff-b588-448c-b17c-5e716c5e7131",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      },
-      {
-        "id": "c7169333-c7ca-495a-baf6-3d9ea9a09425",
-        "weekday": "THURSDAY",
-        "openingTime": "14:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "fd17543d-9b0a-4016-b27c-32061862b9a8",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "1d4ee9b7-c18a-4f81-bd63-6b958f0c3c91",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      },
-      {
-        "id": "fa36c9f8-0bf5-4c88-b80b-93ab4bcd641e",
-        "weekday": "FRIDAY",
-        "openingTime": "14:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "cfb4e43e-9c6e-43a2-be97-75a685fc6118",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "9841e0eb-678f-4b4c-a2f5-319a1de312c2",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      },
-      {
-        "id": "ea834daa-4627-4de0-8dd4-67a28d1207e2",
-        "weekday": "SATURDAY",
-        "openingTime": "11:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "bd816c4d-3d95-436a-af4f-900162837130",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "28aa397b-23ec-4d99-8590-f8d7e56c5bb3",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      },
-      {
-        "id": "31bdb581-1dd9-4d43-bbda-66c5037dbc7e",
-        "weekday": "SUNDAY",
-        "openingTime": "11:00:00",
-        "closingTime": "22:30:00",
-        "prices": [
-          {
-            "id": "17978d64-c2fe-4eca-b4c8-9d92b65b3e2e",
-            "priceType": "ADULT",
-            "price": 11
-          },
-          {
-            "id": "c0c8edf9-1919-4db1-9219-9addc9c57ac9",
-            "priceType": "CHILD",
-            "price": 5
-          }
-        ]
-      }
-    ],
+    "openingHours": [],
     "phone": "+358 50 326 9815",
     "webPage": "https://rauhaniemi.net/",
-    "info": "Kaksi saunaa, joista pienemmässä yleensä miedommat löylyt. Makkaranpaisto mahdollisuus sähkögrillissä.",
+    "info": "Rauhaniemen kansankylpylä on suljettu remontin vuoksi 22.3.2026 alkaen. Kertamaksu 11 € ja juniorit (7-14 v.) 5 €. Ajankohtaiset tiedot: rauhaniemi.net.",
     "kiosk": true,
     "restaurant": false
   },
@@ -1350,7 +1246,7 @@ const result = [
     ],
     "phone": "",
     "webPage": "https://www.ylojarvenryhti.fi/hiihto/avantouinti/",
-    "info": "Maksu itsepalveluna käteisellä. Avantosaunakausi alkaa jälleen ke 1.10.2025. (päivitetty 19.8.25)",
+    "info": "Maksu itsepalveluna käteisellä.",
     "kiosk": false,
     "restaurant": false
   },
@@ -1370,20 +1266,7 @@ const result = [
           {
             "id": "7fc50029-7e6a-49f2-b7a8-da6e86aba8d3",
             "priceType": "ADULT",
-            "price": 15
-          }
-        ]
-      },
-      {
-        "id": "c91927c4-0b89-4195-9f93-297d05302db9",
-        "weekday": "TUESDAY",
-        "openingTime": "06:00:00",
-        "closingTime": "10:30:00",
-        "prices": [
-          {
-            "id": "735b240a-3497-4102-b0d8-a8cc451c1ed4",
-            "priceType": "ADULT",
-            "price": 12
+            "price": 19
           }
         ]
       },
@@ -1396,20 +1279,7 @@ const result = [
           {
             "id": "78394fa7-0664-42a7-a8f9-3d4de0ed54a7",
             "priceType": "ADULT",
-            "price": 15
-          }
-        ]
-      },
-      {
-        "id": "67f968de-72ba-4e02-81e7-338bcf295d7c",
-        "weekday": "WEDNESDAY",
-        "openingTime": "06:00:00",
-        "closingTime": "10:30:00",
-        "prices": [
-          {
-            "id": "5345c359-ae69-4631-9098-23e9ea6eeaf9",
-            "priceType": "ADULT",
-            "price": 12
+            "price": 19
           }
         ]
       },
@@ -1422,20 +1292,7 @@ const result = [
           {
             "id": "83bd107a-ad50-46a5-ae76-47dcceb4e273",
             "priceType": "ADULT",
-            "price": 15
-          }
-        ]
-      },
-      {
-        "id": "19ecae8d-8ec5-4f3f-84fe-813d4229f606",
-        "weekday": "THURSDAY",
-        "openingTime": "06:00:00",
-        "closingTime": "10:30:00",
-        "prices": [
-          {
-            "id": "3e1dc25d-3ad4-4358-ae15-6ff8545190dd",
-            "priceType": "ADULT",
-            "price": 12
+            "price": 19
           }
         ]
       },
@@ -1448,20 +1305,7 @@ const result = [
           {
             "id": "732042fd-07a5-4bbc-96bf-40439becfa56",
             "priceType": "ADULT",
-            "price": 15
-          }
-        ]
-      },
-      {
-        "id": "c69bd2ed-ee05-4e4c-92cc-475929f897f8",
-        "weekday": "FRIDAY",
-        "openingTime": "06:00:00",
-        "closingTime": "10:30:00",
-        "prices": [
-          {
-            "id": "8cb500eb-ee71-4891-b2f0-8c802c53ea10",
-            "priceType": "ADULT",
-            "price": 12
+            "price": 19
           }
         ]
       },
@@ -1474,7 +1318,7 @@ const result = [
           {
             "id": "e62707fb-fcc8-4cd7-b3d2-90e04fb33603",
             "priceType": "ADULT",
-            "price": 15
+            "price": 19
           }
         ]
       },
@@ -1487,7 +1331,7 @@ const result = [
           {
             "id": "b8226044-fd75-4205-b391-3c9c3ca1a6e6",
             "priceType": "ADULT",
-            "price": 15
+            "price": 19
           }
         ]
       },
@@ -1500,14 +1344,14 @@ const result = [
           {
             "id": "2973082a-3d10-4cf0-ad7e-2edc871f81bd",
             "priceType": "ADULT",
-            "price": 15
+            "price": 19
           }
         ]
       }
     ],
     "phone": "+358 50 5170559",
     "webPage": "https://www.saunaravintolakuuma.fi",
-    "info": "Pyyhkeitä, uikkareita ja saunatossuja vuokrattavana. Aamusaunat lämmitetään jälleen 16.9.2025 lähtien",
+    "info": "Aamusaunat ovat kesätauolla ja palaavat 13.10.2026. Saunavuoron pituus 1,5 h ja saunavuoro 19 €. Lapset alle 7 v. veloituksetta ja alle 12 v. puoleen hintaan. Pyyhkeitä, uikkareita ja saunatossuja vuokrattavana (pyyhe 4 €, uimapuku ja saunatossut 3 €).",
     "kiosk": false,
     "restaurant": true
   },
@@ -1773,7 +1617,7 @@ const result = [
     ],
     "phone": null,
     "webPage": "https://lielahdenkipina.fi/suomensaarensauna/",
-    "info": "Saunalle tulee vain järvivesi, joka on hyvä huomioida ottamalla mukaan vettä juotavaksi. Kahvio. Käteinen ei käy.",
+    "info": "Talviuintikausi 1.9.-30.4.: ma & ke klo 16-20, pe klo 16-21, la klo 14-18 ja su klo 15-19. Kesäuintikausi 1.5.-31.8.: ma, ke & pe klo 17-21, la klo 15-18 ja su suljettu. Saunalle tulee vain järvivesi, joka on hyvä huomioida ottamalla mukaan vettä juotavaksi. Kahvio. Käteinen ei käy. Saunomisaika on 1,5 tuntia.",
     "kiosk": true,
     "restaurant": false
   },
@@ -1787,8 +1631,8 @@ const result = [
       {
         "id": "d31468b0-71ac-4137-8efb-2378b19dafc1",
         "weekday": "TUESDAY",
-        "openingTime": "16:00:00",
-        "closingTime": "22:30:00",
+        "openingTime": "13:00:00",
+        "closingTime": "23:00:00",
         "prices": [
           {
             "id": "00eb3990-4816-45d3-866f-61b41dcc80db",
@@ -1805,7 +1649,7 @@ const result = [
       {
         "id": "b60afa2a-54e7-4afe-a1e4-b5cf2a05460e",
         "weekday": "WEDNESDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "13:00:00",
         "closingTime": "22:30:00",
         "prices": [
           {
@@ -1823,7 +1667,7 @@ const result = [
       {
         "id": "2cc504ff-a5db-436e-81b7-8106ad6df8ea",
         "weekday": "THURSDAY",
-        "openingTime": "16:00:00",
+        "openingTime": "13:00:00",
         "closingTime": "23:00:00",
         "prices": [
           {
@@ -1859,7 +1703,7 @@ const result = [
       {
         "id": "4159fe2f-e6c2-4596-8605-11341d817dd4",
         "weekday": "SATURDAY",
-        "openingTime": "14:00:00",
+        "openingTime": "13:00:00",
         "closingTime": "22:30:00",
         "prices": [
           {
@@ -1877,7 +1721,7 @@ const result = [
       {
         "id": "dca84f4a-2f38-4c54-adf7-3d176d9ae7e5",
         "weekday": "SUNDAY",
-        "openingTime": "14:00:00",
+        "openingTime": "13:00:00",
         "closingTime": "22:30:00",
         "prices": [
           {
@@ -1895,7 +1739,7 @@ const result = [
     ],
     "phone": "",
     "webPage": "https://www.nokiantalviuimarit.net/",
-    "info": "Maksu: itsepalvelu käteisellä tai MobilePaylla. Perjantaisin savusauna.",
+    "info": "Talviajan aukioloajat 7.9.2026 alkaen: ti ja to klo 13-23, ke, la ja su klo 13-22.30. Ti ja to klo 13-15 on naisten vuoro. Kuumat löylyt ke klo 21-22.30 ja to klo 22-23. Perjantain savusauna klo 17-23.30 on tarkoitettu jäsenelle ja yhdelle vieraalle. Kertamaksu aikuiset 8 € ja alle 15-vuotiaat 2 €. Maksu tasarahalla lippaaseen tai MobilePaylla.",
     "kiosk": false,
     "restaurant": false
   },
@@ -1906,39 +1750,6 @@ const result = [
     "postalCode": "33720",
     "city": "Tampere",
     "openingHours": [
-      {
-        "id": "911a7d7f-d84e-426c-949c-dd8ac575ac5f",
-        "weekday": "TUESDAY",
-        "openingTime": "16:25:00",
-        "closingTime": "20:45:00",
-        "prices": [
-          {
-            "id": "fa0d4f4e-5531-4365-abb9-e5f199a70186",
-            "priceType": "ADULT",
-            "price": 8
-          },
-          {
-            "id": "77f4c6ad-eb57-4d38-9a7b-e4796d28aeef",
-            "priceType": "CHILD",
-            "price": 5
-          },
-          {
-            "id": "d2fe6169-0f12-4637-9e7f-442e1bb13789",
-            "priceType": "PENSIONER",
-            "price": 7
-          },
-          {
-            "id": "dd2888eb-10b5-4e3e-a5ee-0adc2474596c",
-            "priceType": "STUDENT",
-            "price": 7
-          },
-          {
-            "id": "b5eaf187-3f3e-4a8e-92de-64a89fd07d56",
-            "priceType": "UNEMPLOYED",
-            "price": 7
-          }
-        ]
-      },
       {
         "id": "1204fbaf-c64a-4420-bac4-42af1622a79b",
         "weekday": "WEDNESDAY",
@@ -2006,72 +1817,6 @@ const result = [
         ]
       },
       {
-        "id": "01055bbc-694d-4458-8554-82361232a67a",
-        "weekday": "FRIDAY",
-        "openingTime": "16:25:00",
-        "closingTime": "20:45:00",
-        "prices": [
-          {
-            "id": "4f5da587-217d-4de7-8f43-e036c09c942c",
-            "priceType": "ADULT",
-            "price": 8
-          },
-          {
-            "id": "f1d6d27f-f06f-42da-bebf-0ec3074959ad",
-            "priceType": "CHILD",
-            "price": 5
-          },
-          {
-            "id": "0001e13f-9263-4e0f-97dc-a1867b2d1732",
-            "priceType": "PENSIONER",
-            "price": 7
-          },
-          {
-            "id": "cb433ab9-891a-476f-8259-372860618ee0",
-            "priceType": "STUDENT",
-            "price": 7
-          },
-          {
-            "id": "a8505d80-57c1-4544-9016-77c2305d820a",
-            "priceType": "UNEMPLOYED",
-            "price": 7
-          }
-        ]
-      },
-      {
-        "id": "4a0c4d09-f0d1-4dc0-bacd-0cc9978e7fa6",
-        "weekday": "SATURDAY",
-        "openingTime": "13:25:00",
-        "closingTime": "17:45:00",
-        "prices": [
-          {
-            "id": "f8c23c5f-d697-4980-993c-c95839d87e26",
-            "priceType": "ADULT",
-            "price": 8
-          },
-          {
-            "id": "380c9b1f-3ab4-4efb-be5a-b03d00857fdb",
-            "priceType": "CHILD",
-            "price": 5
-          },
-          {
-            "id": "09cfc39d-34a0-4f0f-9268-a802de33cad5",
-            "priceType": "PENSIONER",
-            "price": 7
-          },
-          {
-            "id": "e6749775-45c6-4810-a4b6-850143e37c46",
-            "priceType": "STUDENT",
-            "price": 7
-          },
-          {
-            "id": "725b67d7-25bf-4310-860e-df65085cbcb1",
-            "priceType": "UNEMPLOYED",
-            "price": 7
-          }
-        ]
-      },
-      {
         "id": "c3b54d5c-9f10-497b-b90f-d3eb92bb7d62",
         "weekday": "SUNDAY",
         "openingTime": "13:25:00",
@@ -2107,7 +1852,7 @@ const result = [
     ],
     "phone": "+358 400 243 559",
     "webPage": "https://juttusauna.fi/suolijarven-sauna/",
-    "info": "Uusi sauna aloitti kolmantena saunana Suolijärvellä jouluaattona 2024. Saunavuoro varattava etukäteen. Saunojen aukioloaika on edelleen jaettu tunnin vuoroihin, jotka näet varaussivustolla. HUOM. Ajankohtaista:  Sauna on kesätauolla 2025, jatketaan jälkeen 7. syyskuuta. Varauskalenteri avautuu maanantaina 1.9.",
+    "info": "Talvikausi on alkanut kolmen saunan voimin ja sauna on auki ke ja to klo 16.25-20.45 sekä su klo 13.25-18.45. Päiviä tulee lisää kauden edetessä. Aukioloaika on jaettu tunnin vuoroihin ja laudepaikan voi varata varauskalenterista. Maksu kortilla, MobilePaylla tai liikuntaeduilla, emme vastaanota käteistä. Normaali saunamaksu 8 €, opiskelijat, eläkeläiset ja työttömät 7 €, juniorit (1-14 v.) 5 €.",
     "kiosk": false,
     "restaurant": false
   },
@@ -2127,12 +1872,12 @@ const result = [
           {
             "id": "b05a3705-ba4c-4710-b852-e2ff37377a98",
             "priceType": "ADULT",
-            "price": 6
+            "price": 7
           },
           {
             "id": "e4ee8a73-83c4-41ef-baa5-6ad24780a25c",
             "priceType": "CHILD",
-            "price": 3
+            "price": 4
           }
         ]
       },
@@ -2145,12 +1890,12 @@ const result = [
           {
             "id": "93b0230a-933d-465f-ba29-8a337755a227",
             "priceType": "ADULT",
-            "price": 6
+            "price": 7
           },
           {
             "id": "975760e1-dd29-4f52-8b40-175528e08c86",
             "priceType": "CHILD",
-            "price": 3
+            "price": 4
           }
         ]
       },
@@ -2163,30 +1908,12 @@ const result = [
           {
             "id": "0cfa739c-2912-43fe-8f71-773eecc9ecd1",
             "priceType": "ADULT",
-            "price": 6
+            "price": 7
           },
           {
             "id": "fbbdbf39-1cd8-4893-b03e-adc89160d434",
             "priceType": "CHILD",
-            "price": 3
-          }
-        ]
-      },
-      {
-        "id": "9967b0e0-3f88-4324-b45c-92149927be43",
-        "weekday": "FRIDAY",
-        "openingTime": "17:30:00",
-        "closingTime": "21:00:00",
-        "prices": [
-          {
-            "id": "fcd47be8-3ea0-44d1-84b1-359f709efc8f",
-            "priceType": "ADULT",
-            "price": 6
-          },
-          {
-            "id": "b830af59-8e9a-4b8e-a4c1-17ee2179ebf3",
-            "priceType": "CHILD",
-            "price": 3
+            "price": 4
           }
         ]
       },
@@ -2199,12 +1926,12 @@ const result = [
           {
             "id": "acd0d5ff-b3e3-4782-adf6-86d78f080969",
             "priceType": "ADULT",
-            "price": 6
+            "price": 7
           },
           {
             "id": "2abeac5e-e5db-47a0-a6e1-96aedf3f2d3e",
             "priceType": "CHILD",
-            "price": 3
+            "price": 4
           }
         ]
       },
@@ -2217,19 +1944,19 @@ const result = [
           {
             "id": "b95ea363-56d6-4629-a075-ab3c225ffc33",
             "priceType": "ADULT",
-            "price": 6
+            "price": 7
           },
           {
             "id": "1a436b72-565a-417e-958c-ddd01fea0475",
             "priceType": "CHILD",
-            "price": 3
+            "price": 4
           }
         ]
       }
     ],
     "phone": "",
     "webPage": "https://sites.google.com/view/tohlopinuimaseura",
-    "info": "Ei suihkuja. Vaatteiden vaihto uimakopissa. Lauantaina klo 16-19 'Lempeiden löylyjen vuoro'",
+    "info": "Saunavuorot: ti, ke ja to klo 17.30-21.00, la klo 16-19 (lempeiden löylyjen vuoro) ja su klo 17.30-21.00. Kertamaksu 7 €, uimaseuran jäsenille 5 € ja 15-vuotiaille ja sitä nuoremmille 4 €. Ei suihkuja, vaatteiden vaihto uimakopissa. Saunan toiminnasta vastaa 1.7.2026 alkaen Laulujoutsen Sauna Oy.",
     "kiosk": false,
     "restaurant": false
   },
@@ -2333,7 +2060,7 @@ const result = [
     ],
     "phone": "+358 44 9730899",
     "webPage": "https://www.ylojarvenavantouimarit.fi/",
-    "info": "",
+    "info": "Talven aukioloajat: ti ja ke klo 16-21 sekä pe, la ja su klo 15-21. Perjantain yleinen vuoro päättyy klo 20, mikäli vuorolla on yksityistilaisuus. Kertamaksu jäsenille 8 € ja ei-jäsenille 10 €, lapset 5 €. 10 kerran kortti jäsenille 70 € ja ei-jäsenille 90 €.",
     "kiosk": true,
     "restaurant": false
   },
@@ -2393,12 +2120,27 @@ const result = [
           {
             "id": "21ad4692-d8db-411c-9bdc-e4f6d02e5848",
             "priceType": "ADULT",
-            "price": 8
+            "price": 10
           },
           {
             "id": "7439e8f9-b7e0-418c-957d-8f1bcdf449a1",
             "priceType": "CHILD",
-            "price": 7
+            "price": 3.5
+          },
+          {
+            "id": "5382f92f-e795-4c96-bd85-c81ff5494197",
+            "priceType": "PENSIONER",
+            "price": 8
+          },
+          {
+            "id": "2d5c70e9-e2aa-44fb-86a4-b7e12129c7b2",
+            "priceType": "STUDENT",
+            "price": 8
+          },
+          {
+            "id": "60128254-e22c-4918-bf94-555739f034e6",
+            "priceType": "UNEMPLOYED",
+            "price": 8
           }
         ]
       },
@@ -2411,12 +2153,27 @@ const result = [
           {
             "id": "ce983d51-0b30-4cf5-8614-0b8d4c9f4552",
             "priceType": "ADULT",
-            "price": 8
+            "price": 10
           },
           {
             "id": "67419ae9-6ae6-4971-b476-bddde8fb2713",
             "priceType": "CHILD",
-            "price": 7
+            "price": 3.5
+          },
+          {
+            "id": "0a738774-606d-41d6-9a28-07101f38a961",
+            "priceType": "PENSIONER",
+            "price": 8
+          },
+          {
+            "id": "de345b11-8db3-4f2a-b049-8c2e0c69cb6c",
+            "priceType": "STUDENT",
+            "price": 8
+          },
+          {
+            "id": "593a4031-3290-4b8a-8780-26f51a960fc8",
+            "priceType": "UNEMPLOYED",
+            "price": 8
           }
         ]
       },
@@ -2429,12 +2186,27 @@ const result = [
           {
             "id": "77879e06-f1a0-4260-959a-508ff491bfe3",
             "priceType": "ADULT",
-            "price": 8
+            "price": 10
           },
           {
             "id": "22aebb07-1aff-4202-8bf8-196f1f213a1e",
             "priceType": "CHILD",
-            "price": 7
+            "price": 3.5
+          },
+          {
+            "id": "f95dee3d-96ca-4e37-91f0-65efc4de7c45",
+            "priceType": "PENSIONER",
+            "price": 8
+          },
+          {
+            "id": "bbf708ad-5158-40c3-9580-d1ed15a77531",
+            "priceType": "STUDENT",
+            "price": 8
+          },
+          {
+            "id": "0902a28c-ba5c-4e41-ab4b-6b4f1fa080b4",
+            "priceType": "UNEMPLOYED",
+            "price": 8
           }
         ]
       },
@@ -2447,19 +2219,34 @@ const result = [
           {
             "id": "bd293c71-8554-4e35-b2e9-51a38e114638",
             "priceType": "ADULT",
-            "price": 12
+            "price": 15
           },
           {
             "id": "d0274466-c866-4671-9361-4cc3c1040cb6",
             "priceType": "CHILD",
-            "price": 10
+            "price": 3.5
+          },
+          {
+            "id": "21c4f880-222f-435d-bee6-95d281f6d8ce",
+            "priceType": "PENSIONER",
+            "price": 12
+          },
+          {
+            "id": "eb37ebed-10c6-4b3e-803a-8fdd79f0c774",
+            "priceType": "STUDENT",
+            "price": 12
+          },
+          {
+            "id": "80a3e233-093e-4d53-a0ab-b645abf72696",
+            "priceType": "UNEMPLOYED",
+            "price": 12
           }
         ]
       }
     ],
     "phone": null,
     "webPage": "https://www.tahmelanhuvila.fi/sauna/",
-    "info": "Tahmelan Huvilan kaksi saunaa Pyhäjärven rannalla. Oma puulämmitteinen sisäsauna ja Rantaportti- pihasauna. Mahdollisuus kastautua Pyhäjärvessä myös talvisin. HUOM! NAISTEN VUORO TO KLO 19-21. Kesäkausi 1.6.-30.9.2025. HUOM! Tahmelan huvilan saunoja remontoidaan 6.-20.10.2025. Tuona aikana saunat ovat kiinni! ",
+    "info": "Yleiset saunavuorot: ti klo 15-21 (sekavuoro), to klo 15-19 (sekavuoro) ja klo 19-21 (naisten vuoro) sekä su klo 14-21 (sekavuoro). Saunamaksu ti ja to 10 €, sunnuntaisin 15 €. Eläkeläisille, opiskelijoille ja työttömille alennettu hinta 8 € / 12 €. Lapset 6-12 v. 3,50 € ja alle 6 v. 0 €. Kymppikortti 80 €. Uimapuku mukaan, kaksi puulämmitteistä saunaa käytössä.",
     "kiosk": true,
     "restaurant": false
   },
@@ -2545,7 +2332,7 @@ const result = [
     ],
     "phone": "044-5400882",
     "webPage": "https://www.hameenkyrontalviuimarit.fi/",
-    "info": "Karttahakuun kannattaa laittaa Kauhtuan sauna. Ajo-ohjeet löydätte kotisivun oikeasta laidasta otsikosta Yhteystiedot. Yleisen saunavuoron aikana on grillikota ja sähkögrilli käytössä makkaran paistolle. Tavalliseen saunaan mahtuu n.30 henkilöä, savusaunaan n.18 henkilöä. Ma, ke, pe: tavallinen ja savusauna. La tavallinen sauna. HUOM: Kesällä (5.5.-31.8. välisenä aikana) sauna vain KESKIVIIKKO klo.15.30-20.30 tavallinen sauna ja savusauna ",
+    "info": "Yleiset saunavuorot: ke ja pe klo 15.30-20.30 (tavallinen sauna ja savusauna). Lokakuun alusta saunat ovat auki myös maanantaisin klo 15.30-20.30 ja lauantaisin klo 14-17.30 (tavallinen sauna, kuun ensimmäisenä lauantaina myös savusauna). Kertamaksu 9 €, lapset 10-16 v. 2 € ja alle 10-vuotiaat ilmaiseksi. Takkatuvan kassa sulkeutuu ma, ke ja pe klo 20 ja la klo 17. Karttahakuun kannattaa laittaa Kauhtuan sauna.",
     "kiosk": false,
     "restaurant": false
   },
@@ -2565,7 +2352,7 @@ const result = [
           {
             "id": "f41b121b-9ce0-4fe3-9778-4543b4f01768",
             "priceType": "ADULT",
-            "price": 6
+            "price": 8
           }
         ]
       },
@@ -2578,7 +2365,7 @@ const result = [
           {
             "id": "df202900-50f6-429c-b2eb-93836e2381eb",
             "priceType": "ADULT",
-            "price": 6
+            "price": 8
           }
         ]
       },
@@ -2591,7 +2378,7 @@ const result = [
           {
             "id": "519712b6-ad08-4410-b1e8-d0c7d4dd7c9d",
             "priceType": "ADULT",
-            "price": 6
+            "price": 8
           }
         ]
       },
@@ -2604,7 +2391,7 @@ const result = [
           {
             "id": "b2c3d4e5-f6a7-8901-bcde-ef2345678901",
             "priceType": "ADULT",
-            "price": 6
+            "price": 8
           }
         ]
       },
@@ -2617,14 +2404,14 @@ const result = [
           {
             "id": "6ff17db8-3400-4573-b96a-32d2a04c4758",
             "priceType": "ADULT",
-            "price": 6
+            "price": 8
           }
         ]
       }
     ],
     "phone": "",
     "webPage": "https://apianavantouimarit.fi/",
-    "info": "Pysäköintialueen osoite on Urheilukatu 16-18, sauna löytyy mäen juuresta Apian uimarannalta. Käteinen ei käy. Talvikausi syyskuun viimeisestä sunnuntaista alkaen.",
+    "info": "Sauna on 27.9.2026 alkaen jälleen avoinna tiistaisin, torstaisin, perjantaisin, lauantaisin ja sunnuntaisin. Kertamaksu ei-jäsenille 8 € ja jäsenille 4 €. Alle 13-vuotiaat pääsevät vanhempien seurassa ilmaiseksi. Kertamaksuissa ei käy käteinen eikä paperiset liikuntasetelit. Pysäköintialueen osoite on Urheilukatu 16-18, sauna löytyy mäen juuresta Apian uimarannalta.",
     "kiosk": false,
     "restaurant": false
   },
@@ -2764,7 +2551,7 @@ const result = [
     ],
     "phone": "040 133 5766",
     "webPage": "https://www.pirkkala.fi/toimipisteet/reipin-sauna-fi-5f192a48475a6c2fdbf4c312/",
-    "info": "Saunarakennuksessa on yhteinen takkatupa ja kaksi saunaa ja pukuhuonetta. Vain käteinen!  TALVIKAUSI (alkaen 4.8.2025): Kaikille avoimet saunavuorot maanantaisin ja keskiviikkoisin 17-20, lauantaisin 14-18.",
+    "info": "Talvikausi 3.8.2026 alkaen: kaikille avoimet saunavuorot maanantaisin ja keskiviikkoisin klo 17-20 sekä lauantaisin klo 14-18. Saunarakennuksessa on yhteinen takkatupa ja kaksi saunaa ja pukuhuonetta. Vain käteinen: aikuiset 6 €/kerta, lapset (alle 15 v.) 2 €/kerta, 10 kerran kortti 50 €.",
     "kiosk": true,
     "restaurant": false
   }
