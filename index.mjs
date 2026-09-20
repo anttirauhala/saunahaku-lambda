@@ -3132,6 +3132,59 @@ const result = [
     "info": "Kangasalan kaupungin omistama Vesaniemen sauna Vesijärven rannalla Kangasalan keskustan vieressä; toiminnasta vastaa Kangasalan Uintiseura ry. Avantosaunakausi 4.9.2026-14.5.2027: lokakuusta huhtikuuhun ma, ke, to ja pe klo 17-21, tammi-maaliskuussa myös sunnuntaisin klo 16-19 (sunnuntain aukiolo alkaa vasta tammikuussa). Syyskuussa ja toukokuussa sauna lämpiää ma ja pe klo 17-21. Kassa sulkeutuu arkisin klo 20.15 ja sunnuntaisin klo 18.15. Kesä-elokuussa kesäsauna on Kangasalan Melojien järjestämä. Miehille ja naisille on omat saunat, avanto pidetään sulana ilmakompressorilla. Aikuinen 7 €/kerta, lapset 3-12 v. 4 €/kerta ja alle 3-vuotiaat maksutta, 12 lipun lippuvihko 70 €. Maksutavat: pankkikortti, MobilePay, ePassi ja Edenred; käteinen poistui käytöstä 1.10.2025. Lisätiedot: uintiseura.fi ja kangasalanuintiseura(at)gmail.com.",
     "kiosk": false,
     "restaurant": false
+  },
+  {
+    "id": "cafd57f1-eed2-4c4a-8dc0-8907842f9f6f",
+    "name": "Niihaman ulkoilumajan sauna",
+    "streetAddress": "Pikku-Niihaman tie 80",
+    "postalCode": "33560",
+    "city": "Tampere",
+    "openingHours": [
+      {
+        "id": "6adeab04-0c58-459d-9d10-9e7ca3666eb7",
+        "weekday": "TUESDAY",
+        "openingTime": "16:00:00",
+        "closingTime": "19:00:00",
+        "prices": [
+          {
+            "id": "fba1a318-cf7a-4752-86ff-3496fb4c2360",
+            "priceType": "ADULT",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "id": "971e7d45-e422-478c-aa4d-fe9cd7b12a14",
+        "weekday": "WEDNESDAY",
+        "openingTime": "16:00:00",
+        "closingTime": "19:00:00",
+        "prices": [
+          {
+            "id": "25df21f5-c1d5-45e6-b4db-575a120de0e5",
+            "priceType": "ADULT",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "id": "23bde72c-c4b1-440a-a063-44fd8d71d0e0",
+        "weekday": "THURSDAY",
+        "openingTime": "16:00:00",
+        "closingTime": "19:00:00",
+        "prices": [
+          {
+            "id": "08d2493f-e450-4cae-a368-71b1130c1c57",
+            "priceType": "ADULT",
+            "price": 8
+          }
+        ]
+      }
+    ],
+    "phone": "+358 50 549 7732",
+    "webPage": "https://www.niihamanulkoilumaja.fi/sauna/",
+    "info": "Niihaman Ulkoilumajan perinteinen puulämmitteinen mökkisauna Niihamajärven rannalla Kaupin ulkoilureittien varrella. Yleinen saunavuoro ti, ke ja to klo 16-19, hinta 8 € saunojalta, ei ennakkovarausta. Sauna on sekasauna ja toteutetaan uimapukusaunana. Saunasta pääsee uimaan Niihamajärveen kesäisin ja talvella avantoon. Saunapassi: joka kymmenennellä käynnillä saunavuoro ilmaiseksi. Yksityinen saunavuoro 160 €/2 h, 210 €/3 h ja 260 €/4 h (aukoiloaikojen ulkopuolella +80 €/alkava tunti). Majan kahvila on avoinna ma-pe klo 11-19 ja la-su klo 10-18.",
+    "kiosk": true,
+    "restaurant": false
   }
 
 ]
