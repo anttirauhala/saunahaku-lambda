@@ -2554,6 +2554,252 @@ const result = [
     "info": "Talvikausi 3.8.2026 alkaen: kaikille avoimet saunavuorot maanantaisin ja keskiviikkoisin klo 17-20 sekä lauantaisin klo 14-18. Saunarakennuksessa on yhteinen takkatupa ja kaksi saunaa ja pukuhuonetta. Vain käteinen: aikuiset 6 €/kerta, lapset (alle 15 v.) 2 €/kerta, 10 kerran kortti 50 €.",
     "kiosk": true,
     "restaurant": false
+  },
+  {
+    "id": "ed5519ee-638b-4a54-bfe3-73e1beee8c99",
+    "name": "Lempee sauna",
+    "streetAddress": "Vanha Rantatie 107",
+    "postalCode": "37500",
+    "city": "Lempäälä",
+    "openingHours": [
+      {
+        "id": "b78be3ec-6e6e-4313-8cbe-f858d89e3144",
+        "weekday": "MONDAY",
+        "openingTime": "15:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "62d7c1fa-33c5-4e37-b53c-50d43bb9b99e",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "3d27b77b-0386-4fa9-a95e-22cd97397f8a",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "7ae8389e-493d-4a94-bd91-08512b68ae10",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "51496814-b1fd-460d-9cda-44f2d66e06df",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "3d65f133-4b9f-4a04-bff6-c9e3667bd228",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      },
+      {
+        "id": "9a50745b-2b25-47f7-8436-553c2d9c91e8",
+        "weekday": "TUESDAY",
+        "openingTime": "15:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "79f242d9-9deb-4c5a-8fb1-55de2edfa828",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "6d0296f2-5bed-4832-94ed-188c9a590185",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "cf108986-9eaf-4f07-8ff1-385795543b5a",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "4748ba44-aca1-466e-8897-81d589b7de63",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "fa1c9088-8a81-490d-8f73-b30df850fd94",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      },
+      {
+        "id": "edf9c9f8-9741-48c5-bc5a-7324cefbd3fa",
+        "weekday": "WEDNESDAY",
+        "openingTime": "15:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "cbbd7379-0a5d-4a3d-b0a6-edf0e3288bd2",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "5c9ba5e9-9a67-4b75-8a6e-213afe5f380a",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "ce621e95-7533-44ab-a74b-5c18a196b955",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "07252c16-7822-4992-94ec-05b888a287f3",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "0ad70dde-4426-405b-9bc0-5dda03866183",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      },
+      {
+        "id": "606ec29d-df84-457b-ba58-580c8918733f",
+        "weekday": "THURSDAY",
+        "openingTime": "15:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "1b93c82d-9d27-4f9a-9db9-f218e929119b",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "67563727-d4e8-42d2-bf99-d6172d54b8ee",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "178b9b85-0c2b-4660-8cc5-e8cc5726fc59",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "9fd713c4-a5e4-4698-9f45-f7bd0be09282",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "63bd2bf8-6af6-44ff-a49a-ef68e26a49dc",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      },
+      {
+        "id": "391fdbb7-3b94-4ba2-986b-396d99ee0a22",
+        "weekday": "FRIDAY",
+        "openingTime": "15:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "bcecce13-4b9f-40c6-84f8-a1860d2f9003",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "9fb86946-71df-4592-b104-4522c7ba18b5",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "7711e622-8312-46c6-b9ff-45524428a6bd",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "d961d746-933b-48b9-ab62-aa6044fb47ef",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "0da0f8c6-e8c2-4b70-9c9c-2003f0ec52d6",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      },
+      {
+        "id": "4697a75d-661f-471a-9330-8a0f3d3dbf76",
+        "weekday": "SATURDAY",
+        "openingTime": "12:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "7cb8fea2-4293-4ded-93f2-6fd910a39e4d",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "57ae7f59-bde7-4934-8d23-24473e433ab4",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "9560beee-f0c3-4dfa-85a9-1a9d67956ad3",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "fbf436dd-08a8-472f-9846-cb0c76462514",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "b017a7ec-ee35-4442-953e-0ce41e6739c8",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      },
+      {
+        "id": "db554ea6-6e97-4fbd-b4bc-389955b702b8",
+        "weekday": "SUNDAY",
+        "openingTime": "12:00:00",
+        "closingTime": "22:00:00",
+        "prices": [
+          {
+            "id": "e335590c-c36f-4623-a103-d2650d777eca",
+            "priceType": "ADULT",
+            "price": 13
+          },
+          {
+            "id": "978d6587-34c1-46db-b2ad-7fd9fa711df1",
+            "priceType": "CHILD",
+            "price": 9
+          },
+          {
+            "id": "dc5b349d-d195-4cf2-af8e-2711ca128d76",
+            "priceType": "PENSIONER",
+            "price": 11.7
+          },
+          {
+            "id": "c82ab424-6cfe-4da5-b44f-fc18165e4075",
+            "priceType": "STUDENT",
+            "price": 11.7
+          },
+          {
+            "id": "3f26bcb0-ab6e-44cd-93b8-507f0da62073",
+            "priceType": "CONSRIPT",
+            "price": 11.7
+          }
+        ]
+      }
+    ],
+    "phone": "041 3276 983",
+    "webPage": "https://lempeesauna.fi/sauna/",
+    "info": "Yleinen sauna Pyhäjärven rannalla Lempäälän Mäyriässä. Kaksi maisemasaunaa (Kajo ja Korpi), lämmin- ja kylmäallas sekä uinti järvessä laiturilta ympäri vuoden. Sauna- ja allasalue suljetaan 15 min ennen sulkeutumista. Saunat ovat yhteiset miehille ja naisille, uima-asun käyttö on pakollista. Sauna-aika on 1,5 tuntia, saunat toimivat ilman ajanvarausta. Kertaliput myydään saunan kassalta: aikuinen 13 €, lapsi alle 12 v. 9 €, eläkeläisille, opiskelijoille ja varusmiehille -10 %. 10 kerran sarjalippu 109 €. Maksutapoina käyvät pankkikortti ja yleisimmät hyvinvointi- ja liikuntaedut.",
+    "kiosk": true,
+    "restaurant": false,
+    "isNew": true
   }
 
 ]
