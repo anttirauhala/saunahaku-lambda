@@ -3046,6 +3046,92 @@ const result = [
     "kiosk": true,
     "restaurant": false,
     "isNew": true
+  },
+  {
+    "id": "c80eb4aa-ca3a-4b08-b057-6cdfbdd38247",
+    "name": "Vesaniemen avantosauna",
+    "streetAddress": "Vesaniementie 15",
+    "postalCode": "36200",
+    "city": "Kangasala",
+    "openingHours": [
+      {
+        "id": "75705e33-0263-4514-afb7-62af19d35b95",
+        "weekday": "MONDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:00:00",
+        "prices": [
+          {
+            "id": "358de63b-e195-4943-b6bd-26158a604bee",
+            "priceType": "ADULT",
+            "price": 7
+          },
+          {
+            "id": "e8e9f039-a64f-44ce-99f2-8377241b4157",
+            "priceType": "CHILD",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "6da196c2-3420-4e78-add4-7f6b2794cad4",
+        "weekday": "WEDNESDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:00:00",
+        "prices": [
+          {
+            "id": "745e7e8f-db30-4ce4-b23f-8a818bc89f68",
+            "priceType": "ADULT",
+            "price": 7
+          },
+          {
+            "id": "a6b0e47f-7a9d-4654-bb1a-ccfbeb3a7d6b",
+            "priceType": "CHILD",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "0f5cfa6f-0709-4db0-a68e-dee4b9ff2975",
+        "weekday": "THURSDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:00:00",
+        "prices": [
+          {
+            "id": "57c9f394-2d56-47f9-998e-e0a83f1ea491",
+            "priceType": "ADULT",
+            "price": 7
+          },
+          {
+            "id": "602b8772-e85e-45c3-9e8c-08790df8357e",
+            "priceType": "CHILD",
+            "price": 4
+          }
+        ]
+      },
+      {
+        "id": "4d366138-1e10-4093-901f-1b32708d4646",
+        "weekday": "FRIDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:00:00",
+        "prices": [
+          {
+            "id": "42a67b63-4d89-4d61-8559-9693b40cf2ad",
+            "priceType": "ADULT",
+            "price": 7
+          },
+          {
+            "id": "ffbbf2c3-8781-4013-ac0a-3ccd4d87390b",
+            "priceType": "CHILD",
+            "price": 4
+          }
+        ]
+      }
+    ],
+    "phone": "",
+    "webPage": "https://www.uintiseura.fi/Vesaniemen-sauna/",
+    "info": "Kangasalan kaupungin omistama Vesaniemen sauna Vesijärven rannalla Kangasalan keskustan vieressä; toiminnasta vastaa Kangasalan Uintiseura ry. Avantosaunakausi 4.9.2026-14.5.2027: lokakuusta huhtikuuhun ma, ke, to ja pe klo 17-21, tammi-maaliskuussa myös sunnuntaisin klo 16-19 (sunnuntain aukiolo alkaa vasta tammikuussa). Syyskuussa ja toukokuussa sauna lämpiää ma ja pe klo 17-21. Kassa sulkeutuu arkisin klo 20.15 ja sunnuntaisin klo 18.15. Kesä-elokuussa kesäsauna on Kangasalan Melojien järjestämä. Miehille ja naisille on omat saunat, avanto pidetään sulana ilmakompressorilla. Aikuinen 7 €/kerta, lapset 3-12 v. 4 €/kerta ja alle 3-vuotiaat maksutta, 12 lipun lippuvihko 70 €. Maksutavat: pankkikortti, MobilePay, ePassi ja Edenred; käteinen poistui käytöstä 1.10.2025. Lisätiedot: uintiseura.fi ja kangasalanuintiseura(at)gmail.com.",
+    "kiosk": false,
+    "restaurant": false
   }
 
 ]
