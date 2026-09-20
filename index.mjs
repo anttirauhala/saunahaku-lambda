@@ -2800,6 +2800,252 @@ const result = [
     "kiosk": true,
     "restaurant": false,
     "isNew": true
+  },
+  {
+    "id": "5ca4a7af-cad7-4b34-99d3-d5d455564e1d",
+    "name": "Rantalan sauna",
+    "streetAddress": "Ruodasjärventie 50",
+    "postalCode": "37560",
+    "city": "Lempäälä",
+    "openingHours": [
+      {
+        "id": "3c31ad02-52d4-47d5-a675-941a5a7570a9",
+        "weekday": "MONDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "02515916-76d3-405f-b80c-dbd9abf50fd7",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "10a7abe8-896f-4676-b31d-60f0679b92d8",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "397e4304-6a5f-448d-b401-048bbc5311cf",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "f81b9c44-e454-4a45-9393-5b0af936a826",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "516ef212-12f4-4846-a087-b26d3d83a36a",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      },
+      {
+        "id": "38ce8f52-b5e3-4885-93ed-33849ac89854",
+        "weekday": "TUESDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "5201587c-0e79-43a9-a47c-c31896b053d3",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "e6f3b3c1-d473-4744-8199-93eef69e8cf3",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "35f9bf38-6a37-433e-b448-e59842a08564",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "d17444c9-2031-44d5-9990-d06a67d31a08",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "5d959431-f8ed-4c03-8d89-e39ca35d6439",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      },
+      {
+        "id": "484c93a2-800a-407f-aee5-b8e35e8ceb01",
+        "weekday": "WEDNESDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "0d4c1f56-b4a3-4f56-9122-e0ef06dd3351",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "a942ee5b-ed7b-406e-9d4f-4cfd65691cf8",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "7af605fa-cca9-4de4-aee7-03b8ea676a81",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "9c459bee-efac-42e2-85dd-a0bd8fad3e24",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "81f51d2a-082c-4675-89bc-1baebb5b933f",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      },
+      {
+        "id": "6cba43a3-82c1-4774-86fb-b61ada087727",
+        "weekday": "THURSDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "39aa7380-dba6-40b9-9523-dcc6233a03b4",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "20fa3b12-33bc-492b-b030-415bd3d02491",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "0d847129-413d-4aac-9320-5563b7f6b3ec",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "3c929c19-e46f-48e0-a46a-8daa8776a2b9",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "79e51bfd-9d17-457a-a984-50d86a414281",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      },
+      {
+        "id": "1ae6dda9-45c7-49a2-beb7-e70449aeb906",
+        "weekday": "FRIDAY",
+        "openingTime": "17:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "03ae72f5-f38c-41b9-b42a-2b1f1bb73796",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "bc0a8a96-ffdd-4cf6-a06b-a529c774d3e5",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "56f3cabc-958c-47bb-bb9f-aaee89f92509",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "cdd44e58-4392-4d7c-83db-802b43b6ed56",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "7447280f-237c-4919-b79d-70cfa16d52c3",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      },
+      {
+        "id": "e7118796-f423-4beb-b33e-c4a8a690872e",
+        "weekday": "SATURDAY",
+        "openingTime": "14:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "4d4092f5-d8d5-4fda-b0bb-62a729814b56",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "de49603d-6f07-43f5-b612-4d45ed262706",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "3fdb62a4-ed47-4672-acf7-e687246a2a9b",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "a729709e-508d-4373-aea7-e56639647a79",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "7f007090-68c0-45af-b752-dfd9265ef1a4",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      },
+      {
+        "id": "4404c64a-352f-4dc4-94cc-4400bbe78b5f",
+        "weekday": "SUNDAY",
+        "openingTime": "14:00:00",
+        "closingTime": "21:30:00",
+        "prices": [
+          {
+            "id": "93bc872f-07c5-4553-9545-660e599baeaa",
+            "priceType": "ADULT",
+            "price": 11
+          },
+          {
+            "id": "6bb6a4e8-9048-4fac-91a6-febe205c05fd",
+            "priceType": "CHILD",
+            "price": 6
+          },
+          {
+            "id": "e40790ce-ee92-42db-9fb8-760440acd644",
+            "priceType": "PENSIONER",
+            "price": 9.9
+          },
+          {
+            "id": "703b0c93-0712-430a-a316-7bd6670ef183",
+            "priceType": "STUDENT",
+            "price": 9.9
+          },
+          {
+            "id": "83d8a0d4-066e-4ccc-a921-127808708dc6",
+            "priceType": "CONSRIPT",
+            "price": 9.9
+          }
+        ]
+      }
+    ],
+    "phone": "+358 45 7834 3303",
+    "webPage": "https://rantalansaunalle.fi/",
+    "info": "Aito suomalainen saunakokemus Lempäälän ja Tampereen rajalla, avattu 5.9.2026. Lämpimän saunan lisäksi virkistävä avanto talvikaudella ja viihtyisä tuvan kahvio. Saunat toimivat ilman ajanvarausta ja yhden saunavuoron aika on 1,5 h. Kertamaksu 11 €, lapset (alle 12 v.) 6 € ja alennusryhmille (eläkeläiset, opiskelijat, vanhempainvapaa, varusmiehet) -10 %. Sarjakortit: 3 kerran kortti 30 €, 10 kerran kortti 90 €, 35 kerran kortti 290 €. Maksuvälineinä käyvät kortti, käteinen, MobilePay sekä E-passi ja Edenred.",
+    "kiosk": true,
+    "restaurant": false,
+    "isNew": true
   }
 
 ]
