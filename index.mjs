@@ -134,8 +134,8 @@ const result = [
     "streetAddress": "Ratinan rantatie 6",
     "postalCode": "33100",
     "city": "Tampere",
-    "latitude": 61.4937862,
-    "longitude": 23.7660938,
+    "latitude": 61.493807,
+    "longitude": 23.764364,
     "openingHours": [
       {
         "id": "3ab81eb0-a7cf-4acf-a2d6-9978845f7ed8",
@@ -1189,8 +1189,8 @@ const result = [
     "streetAddress": "Rauhaniementie 24",
     "postalCode": "33180",
     "city": "Tampere",
-    "latitude": 61.5126562,
-    "longitude": 23.7814432,
+    "latitude": 61.5153621,
+    "longitude": 23.7866870,
     "openingHours": [],
     "phone": "+358 50 326 9815",
     "webPage": "https://rauhaniemi.net/",
@@ -1204,8 +1204,8 @@ const result = [
     "streetAddress": "Räikäntie 3",
     "postalCode": "33470",
     "city": "Ylöjärvi",
-    "latitude": 61.5566644,
-    "longitude": 23.5966172,
+    "latitude": 61.5572839,
+    "longitude": 23.6001320,
     "openingHours": [
       {
         "id": "19c10501-6414-4ecf-b7be-8c78cee6120e",
@@ -1272,8 +1272,8 @@ const result = [
     "streetAddress": "Laukontori 21",
     "postalCode": "33100",
     "city": "Tampere",
-    "latitude": 61.4949243,
-    "longitude": 23.7601491,
+    "latitude": 61.4945434,
+    "longitude": 23.7604747,
     "openingHours": [
       {
         "id": "d61a7ae0-3628-4b3b-8775-abe8be01aaa9",
@@ -1647,8 +1647,8 @@ const result = [
     "streetAddress": "Ojanteentie 16",
     "postalCode": "37120",
     "city": "Nokia",
-    "latitude": 61.4613448,
-    "longitude": 23.5189711,
+    "latitude": 61.4585731,
+    "longitude": 23.5220996,
     "openingHours": [
       {
         "id": "d31468b0-71ac-4137-8efb-2378b19dafc1",
@@ -1771,8 +1771,8 @@ const result = [
     "streetAddress": " Suolijärvenkatu 5",
     "postalCode": "33720",
     "city": "Tampere",
-    "latitude": 61.4440343,
-    "longitude": 23.8359340,
+    "latitude": 61.4425191,
+    "longitude": 23.8352984,
     "openingHours": [
       {
         "id": "1204fbaf-c64a-4420-bac4-42af1622a79b",
@@ -1886,8 +1886,8 @@ const result = [
     "streetAddress": "Pyydyspohjankatu 1",
     "postalCode": "33310",
     "city": "Tampere",
-    "latitude": 61.5126323,
-    "longitude": 23.6359997,
+    "latitude": 61.5113622,
+    "longitude": 23.6396135,
     "openingHours": [
       {
         "id": "f6f76c75-19c5-4d26-aba6-3c4c3eb6fb61",
@@ -1992,8 +1992,8 @@ const result = [
     "streetAddress": "Viljakkalantie 140",
     "postalCode": "33480",
     "city": "Ylöjärvi",
-    "latitude": 61.5768544,
-    "longitude": 23.5958578,
+    "latitude": 61.5822520,
+    "longitude": 23.5958323,
     "openingHours": [
       {
         "id": "55678cc3-10b9-4960-949f-8854740202fc",
@@ -2288,8 +2288,8 @@ const result = [
     "streetAddress": "Kauhtuantie 6",
     "postalCode": "39200",
     "city": "Kyröskoski",
-    "latitude": 61.6830889,
-    "longitude": 23.1681497,
+    "latitude": 61.6837677,
+    "longitude": 23.1686813,
     "openingHours": [
       {
         "id": "9791b4a1-69e1-401f-971f-39c32c6a14a6",
@@ -2376,8 +2376,8 @@ const result = [
     "streetAddress": "Urheilukatu 20",
     "postalCode": "37600",
     "city": "Valkeakoski",
-    "latitude": 61.2663511,
-    "longitude": 24.0418194,
+    "latitude": 61.2669837,
+    "longitude": 24.0426999,
     "openingHours": [
       {
         "id": "3530f216-8bc1-49f0-b482-76545a5e6ed4",
@@ -2599,8 +2599,8 @@ const result = [
     "streetAddress": "Vanha Rantatie 107",
     "postalCode": "37500",
     "city": "Lempäälä",
-    "latitude": 61.3419013,
-    "longitude": 23.6607786,
+    "latitude": 61.3410843,
+    "longitude": 23.6447647,
     "openingHours": [
       {
         "id": "b78be3ec-6e6e-4313-8cbe-f858d89e3144",
@@ -2847,8 +2847,8 @@ const result = [
     "streetAddress": "Ruodasjärventie 50",
     "postalCode": "37560",
     "city": "Lempäälä",
-    "latitude": 61.3953736,
-    "longitude": 23.7949747,
+    "latitude": 61.3938701,
+    "longitude": 23.7998336,
     "openingHours": [
       {
         "id": "3c31ad02-52d4-47d5-a675-941a5a7570a9",
@@ -3095,8 +3095,8 @@ const result = [
     "streetAddress": "Vesaniementie 15",
     "postalCode": "36200",
     "city": "Kangasala",
-    "latitude": 61.4656956,
-    "longitude": 24.0819690,
+    "latitude": 61.4670310,
+    "longitude": 24.0832972,
     "openingHours": [
       {
         "id": "75705e33-0263-4514-afb7-62af19d35b95",
