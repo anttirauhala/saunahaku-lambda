@@ -46,6 +46,8 @@ const result = [
     "streetAddress": "Porintie 584",
     "postalCode": "37130",
     "city": "Nokia",
+    "latitude": 61.4966488,
+    "longitude": 23.4553847,
     "openingHours": [
       {
         "id": "3ccfc019-85d5-490d-8016-a8183ff5ae88",
@@ -132,6 +134,8 @@ const result = [
     "streetAddress": "Ratinan rantatie 6",
     "postalCode": "33100",
     "city": "Tampere",
+    "latitude": 61.4937862,
+    "longitude": 23.7660938,
     "openingHours": [
       {
         "id": "3ab81eb0-a7cf-4acf-a2d6-9978845f7ed8",
@@ -426,6 +430,8 @@ const result = [
     "streetAddress": "Kangasalantie 80",
     "postalCode": "33730",
     "city": "Tampere",
+    "latitude": 61.4759129,
+    "longitude": 23.8941446,
     "openingHours": [
       {
         "id": "f26237ca-b6e1-4f43-936c-cfe9b0d8ca34",
@@ -706,6 +712,8 @@ const result = [
     "streetAddress": "Kaupinpuistonkatu 1",
     "postalCode": "33500",
     "city": "Tampere",
+    "latitude": 61.5152426,
+    "longitude": 23.8044577,
     "openingHours": [
       {
         "id": "572dc6e2-df3a-4839-95b6-0b16966ee804",
@@ -846,6 +854,8 @@ const result = [
     "streetAddress": "Pereensaarentie 43",
     "postalCode": "33950",
     "city": "Pirkkala",
+    "latitude": 61.4801561,
+    "longitude": 23.7021342,
     "openingHours": [
       {
         "id": "4bd5d8d7-c116-4297-ab13-da03ff6a6ca1",
@@ -1091,6 +1101,8 @@ const result = [
     "streetAddress": "Pispalan valtatie 9",
     "postalCode": "33250",
     "city": "Tampere",
+    "latitude": 61.5021090,
+    "longitude": 23.7197484,
     "openingHours": [
       {
         "id": "607c1878-57d1-4685-8275-d395f3978541",
@@ -1177,6 +1189,8 @@ const result = [
     "streetAddress": "Rauhaniementie 24",
     "postalCode": "33180",
     "city": "Tampere",
+    "latitude": 61.5126562,
+    "longitude": 23.7814432,
     "openingHours": [],
     "phone": "+358 50 326 9815",
     "webPage": "https://rauhaniemi.net/",
@@ -1190,6 +1204,8 @@ const result = [
     "streetAddress": "Räikäntie 3",
     "postalCode": "33470",
     "city": "Ylöjärvi",
+    "latitude": 61.5566644,
+    "longitude": 23.5966172,
     "openingHours": [
       {
         "id": "19c10501-6414-4ecf-b7be-8c78cee6120e",
@@ -1256,6 +1272,8 @@ const result = [
     "streetAddress": "Laukontori 21",
     "postalCode": "33100",
     "city": "Tampere",
+    "latitude": 61.4949243,
+    "longitude": 23.7601491,
     "openingHours": [
       {
         "id": "d61a7ae0-3628-4b3b-8775-abe8be01aaa9",
@@ -1361,6 +1379,8 @@ const result = [
     "streetAddress": "Suomensaarenkatu 9",
     "postalCode": "33410",
     "city": "Tampere",
+    "latitude": 61.5365359,
+    "longitude": 23.7056352,
     "openingHours": [
       /*{ 
           "id": "a61f467c-2e49-43a0-a195-a3f6470c006c",
@@ -1627,6 +1647,8 @@ const result = [
     "streetAddress": "Ojanteentie 16",
     "postalCode": "37120",
     "city": "Nokia",
+    "latitude": 61.4613448,
+    "longitude": 23.5189711,
     "openingHours": [
       {
         "id": "d31468b0-71ac-4137-8efb-2378b19dafc1",
@@ -1749,6 +1771,8 @@ const result = [
     "streetAddress": " Suolijärvenkatu 5",
     "postalCode": "33720",
     "city": "Tampere",
+    "latitude": 61.4440343,
+    "longitude": 23.8359340,
     "openingHours": [
       {
         "id": "1204fbaf-c64a-4420-bac4-42af1622a79b",
@@ -1862,6 +1886,8 @@ const result = [
     "streetAddress": "Pyydyspohjankatu 1",
     "postalCode": "33310",
     "city": "Tampere",
+    "latitude": 61.5126323,
+    "longitude": 23.6359997,
     "openingHours": [
       {
         "id": "f6f76c75-19c5-4d26-aba6-3c4c3eb6fb61",
@@ -1966,6 +1992,8 @@ const result = [
     "streetAddress": "Viljakkalantie 140",
     "postalCode": "33480",
     "city": "Ylöjärvi",
+    "latitude": 61.5768544,
+    "longitude": 23.5958578,
     "openingHours": [
       {
         "id": "55678cc3-10b9-4960-949f-8854740202fc",
@@ -2070,6 +2098,8 @@ const result = [
   "streetAddress": "Kekkosenkatu 10",
   "postalCode": "33100",
   "city": "Tampere",
+  "latitude": 61.5078509,
+  "longitude": 23.7700898,
   "openingHours": [
       {
           "id": "dc9b30f3-a338-4084-8c3a-7b346b2d352e",
@@ -2110,6 +2140,8 @@ const result = [
     "streetAddress": "Uramonkatu 9",
     "postalCode": "33240",
     "city": "Tampere",
+    "latitude": 61.4971253,
+    "longitude": 23.7099477,
     "openingHours": [
       {
         "id": "9cffff46-fa09-4002-98b4-5a743370475a",
@@ -2256,6 +2288,8 @@ const result = [
     "streetAddress": "Kauhtuantie 6",
     "postalCode": "39200",
     "city": "Kyröskoski",
+    "latitude": 61.6830889,
+    "longitude": 23.1681497,
     "openingHours": [
       {
         "id": "9791b4a1-69e1-401f-971f-39c32c6a14a6",
@@ -2342,6 +2376,8 @@ const result = [
     "streetAddress": "Urheilukatu 20",
     "postalCode": "37600",
     "city": "Valkeakoski",
+    "latitude": 61.2663511,
+    "longitude": 24.0418194,
     "openingHours": [
       {
         "id": "3530f216-8bc1-49f0-b482-76545a5e6ed4",
@@ -2421,6 +2457,8 @@ const result = [
     "streetAddress": "Reipintie 43",
     "postalCode": "33980",
     "city": "Pirkkala",
+    "latitude": 61.4478394,
+    "longitude": 23.5511529,
     "openingHours": [
       {
         "id": "855c4d54-0237-47dc-828e-9cfbaf3db531",
@@ -2561,6 +2599,8 @@ const result = [
     "streetAddress": "Vanha Rantatie 107",
     "postalCode": "37500",
     "city": "Lempäälä",
+    "latitude": 61.3419013,
+    "longitude": 23.6607786,
     "openingHours": [
       {
         "id": "b78be3ec-6e6e-4313-8cbe-f858d89e3144",
@@ -2807,6 +2847,8 @@ const result = [
     "streetAddress": "Ruodasjärventie 50",
     "postalCode": "37560",
     "city": "Lempäälä",
+    "latitude": 61.3953736,
+    "longitude": 23.7949747,
     "openingHours": [
       {
         "id": "3c31ad02-52d4-47d5-a675-941a5a7570a9",
@@ -3053,6 +3095,8 @@ const result = [
     "streetAddress": "Vesaniementie 15",
     "postalCode": "36200",
     "city": "Kangasala",
+    "latitude": 61.4656956,
+    "longitude": 24.0819690,
     "openingHours": [
       {
         "id": "75705e33-0263-4514-afb7-62af19d35b95",
@@ -3139,6 +3183,8 @@ const result = [
     "streetAddress": "Pikku-Niihaman tie 80",
     "postalCode": "33560",
     "city": "Tampere",
+    "latitude": 61.5187015,
+    "longitude": 23.8735879,
     "openingHours": [
       {
         "id": "6adeab04-0c58-459d-9d10-9e7ca3666eb7",
